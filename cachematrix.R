@@ -1,4 +1,4 @@
-## This function makes a natrix that will calcualte an inverse of itself
+## This function makes a matrix that will calcualte an inverse of itself
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
@@ -16,7 +16,8 @@ makeCacheMatrix <- function(x = matrix()) {
              getinverse = getinverse)
 }
 
-## Write a short comment describing this function
+## This function will take a matix created by makeCacheMAtrix and calculate the inverse if it has not alrady been created.  
+## If it has been created it retrieves from the cahce.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
